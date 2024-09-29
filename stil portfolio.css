@@ -1,0 +1,230 @@
+body {
+	background: url('pexels-steve-3684544.jpg') no-repeat center center/cover;
+	background-size: cover;
+	height: 410vh;
+}
+
+@font-face {
+    font-family: 'KadaStelaRukopisniFontRegular';
+    src: url('KadaStelaRukopisniFont-webfont.woff2') format('woff2'),
+         url('KadaStelaRukopisniFont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'el_messiriregular';
+    src: url('elmessiri-variablefont_wght-webfont.woff2') format('woff2'),
+         url('elmessiri-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.pozadina2 {
+	left: 60px;
+	position: absolute;
+	background-color: #E6E6FACC;
+	height: 528px;
+	top: 40px;
+	right: 60px;
+	border-radius: 3px;
+	display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+h1 {
+	font-family: 'el_messiriregular', sans-serif;
+	font-size: 105px;
+	text-align: center;
+	font-weight: 600;
+	color: transparent;
+    background: url('pexels-steve-3684544.jpg') no-repeat center center/cover;
+    background-clip: text;
+}
+
+.podtekst1 {
+	left: 405px;
+	position: absolute;
+	background-color: rgba(255, 255, 255, 0);
+	color: transparent;
+	height: 50px;
+	top: 360px;
+	border-radius: 3px;
+	display: flex;
+    justify-content: center;
+    align-items: center; 
+	background-clip: text;
+}
+
+h2 {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	color: #6A5ACD;
+}
+
+.pozadina3 {
+	left: 60px;
+	position: absolute;
+	background-color: #E6E6FA99;
+	height: 420px;
+	top: 620px;
+	right: 60px;
+	border-radius: 3px;
+	display: flex;
+}
+
+.pozadina4 {
+	left: 60px;
+	position: absolute;
+	background-color: #E6E6FA99;
+	height: 650px;
+	top: 1090px;
+	right: 60px;
+	border-radius: 3px;
+	display: flex;
+}
+.pozadina5 {
+	left: 60px;
+	position: absolute;
+	background-color: #E6E6FA99;
+	height: 550px;
+	top: 1790px;
+	right: 60px;
+	border-radius: 3px;
+	display: flex;
+}
+
+
+@keyframes animacija1 {
+  0%   {top: 183px; left: 30px; background: red; width: 15px;}
+  13%  {top: 300px; left: 30px; background: yellow; width: 15px; height: 122px;}
+  25%  {top: 407px; left: 30px; background: yellow; width: 15px; height: 15px;}
+  38%  {top: 407px; left: 30px; background: black; width: 550px;}
+  50%  {top: 407px; left: 560px; background: black; width: 15px; height: 15px;}
+  63%  {top: 183px; left: 560px; background: blue; width: 15px; height: 117px;}
+  75%  {top: 183px; left: 560px; background: blue; width: 15px; height: 15px;}
+  86% {top: 183px; left: 30px; background: red; width: 550px;}
+  100% {top: 183px; left: 30px; background: red; width: 15px;}
+}
+
+#prva {
+	position: absolute;
+	top:650px;
+	left: 110px;
+}
+
+#opis1 p {
+	position: absolute;
+	top: 850px;
+	left: 90px;
+	width: 620px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	color: #231b57;
+	padding: 5px;
+	text-shadow: none;
+}
+
+#druga {
+	position: absolute;
+	top:650px;
+	left: 750px;
+}
+#treca {
+	position: absolute;
+	top:25px;
+	left: 55px;
+}
+#cetvrta {
+	position: absolute;
+	top:25px;
+	left: 435px;
+}
+#peta {
+	position: absolute;
+	top:25px;
+	left: 803px;
+}
+#opis2 p {
+	position: absolute;
+	top: 560px;
+	left: 80px;
+	right:80px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: #231b57;
+	padding: 5px;
+	text-shadow: none;
+}
+#sesta {
+	position: absolute;
+	top: 65px;
+	left: 450px;
+}
+#sedma {
+	position: absolute;
+	top: 25px;
+	left: 50px;
+}
+#osma {
+	position: absolute;
+	top: 340px;
+	left: 415px;
+}
+
+#opis3 p {
+	position: absolute;
+	top: 410px;
+	left: 875px;
+	width: 300px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	color: #231b57;
+	padding: 5px;
+	text-shadow: none;
+}
+
+.meni {
+	font-family: Arial, sans-serif;
+	position: absolute;
+	top: 2375px;
+	margin-left: 200px;
+	width: 900px;
+	list-style: none;
+	font-size: 16px;
+	background-color: #6A5ACDCC;
+	display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.meni p {
+	color:#E6E6FA;
+}
+.meni a:link {
+	color:#231b57;
+}
+
+.meni a:visited {
+	color:rgb(64,0,64);
+}
+
+.meni a:hover {
+	color:#231b57;
+}
+
+.meni li,p {
+	margin-right: 10px;
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
